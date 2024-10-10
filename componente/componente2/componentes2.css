@@ -1,0 +1,32 @@
+.componente2 {
+    background-color: #e0f7fa; 
+    padding: 15px; 
+    margin: 10px 0; 
+    border: 1px solid #00796b; 
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace; 
+}
+
+.input-busqueda {
+    width: 70%; 
+    padding: 10px; 
+    border: 1px solid #00796b;
+    border-radius: 5px; 
+    font-family: monospace;
+}
+
+.btn-enviar {
+    background-color: #00796b;
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.btn-enviar:hover {
+    background-color: #004d40;
+}
