@@ -1,3 +1,7 @@
-import { Componente1 } from './componente/componente_1/componente_1.js';
+import { componente1 } from './componente/componentes1/componentes1.js';
 
-document.getElementById('componente1').innerHTML = Componente1();
+let DOM = document.querySelector("#root");
+
+// Agregar Componente 1 al DOM
+let comp1 = componente1();
+DOM.appendChild(comp1);
