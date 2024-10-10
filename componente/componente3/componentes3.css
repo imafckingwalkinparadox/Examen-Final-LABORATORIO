@@ -1,0 +1,21 @@
+.componente3 {
+    background-color: #fff8e1; /* Color de fondo */
+    padding: 15px; /* Espaciado interno */
+    margin: 10px 0; /* Margen superior e inferior */
+    border: 1px solid #ffab00; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-family: monospace; /* Usa monospace como fuente */
+}
+
+.lista-proyectos {
+    list-style-type: none; /* Sin viñetas */
+    padding-left: 0; /* Quita el padding del UL */
+}
+
+.lista-proyectos li {
+    background-color: #ffe082; /* Color de fondo de los elementos */
+    margin: 5px 0; /* Margen entre los elementos */
+    padding: 10px; /* Espaciado interno de los elementos */
+    border-radius: 3px; /* Bordes redondeados */
+    font-family: monospace; /* Usa monospace como fuente */
+}
